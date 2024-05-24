@@ -1,0 +1,31 @@
+plugin:
+    name: 'ipag.seller::lang.plugin.name'
+    description: 'ipag.seller::lang.plugin.description'
+    author: Ipag
+    icon: icon-question
+    homepage: ''
+navigation:
+    main-seller:
+        label: 'ipag.seller::lang.menu.main'
+        url: ipag/seller/doc_packs
+        icon: icon-question
+        permissions:
+            - 'ipag-seller'
+        sideMenu:
+            side-seller-docs:
+                label: 'ipag.seller::lang.menu.main'
+                url: ipag/seller/doc_packs
+                icon: icon-newspaper-o
+                permissions:
+                    - 'ipag-seller'
+            side-seller-templates:
+                label: 'ipag.seller::lang.menu.template'
+                url: ipag/seller/templates
+                icon: icon-sitemap
+                permissions:
+                    - 'ipag-seller'
+permissions:
+    ipag-seller:
+        tab: 'ipag.seller::lang.tab.permissions'
+        label: 'ipag.seller::lang.permission.seller'
+        order: 100

@@ -1,0 +1,13 @@
+1.0.0:
+    - 'Create db tables'
+    - table_create_ipag_seller_data.php
+    - table_create_ipag_seller_docs.php
+    - table_create_ipag_seller_jur_data.php
+    - table_create_ipag_seller_templates.php
+1.0.1:
+    - 'Change article_id to offer_id'
+    - table_update_ipag_seller_docs.php
+1.0.2:
+    - 'Changes'
+    - table_update_ipag_seller_data.php
+    - table_update_lovata_articles.php
